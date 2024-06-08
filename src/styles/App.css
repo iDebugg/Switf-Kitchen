@@ -1,0 +1,1078 @@
+/* 
+.LoginPg{
+  display: flex;
+  gap: 200px;
+}
+.logInImgContainer{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)),
+  url('../assets/img/loginIMG.png');
+  width: 950px;
+  height: 980px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  
+}
+ 
+
+.WelcomeMsg{
+  margin-top: 50px;
+  width: 600px;
+  font-size: 45px;
+  padding-left: 40px;
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+.loginLogo{
+  width: 190px;
+  margin-bottom: 20px;
+}
+.LogInSpaceDetails{
+  margin-top: 250px;
+}
+.LogInText {
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.MatNoInputHome{
+  height: 50px;
+  width: 460px;
+  border-radius: 30px;
+  color: black;
+  border: 2px solid gray;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  font-family: Lato;
+  font-weight: 600;
+  font-size: 18px;
+
+}
+.passInputHome{
+  height: 50px;
+  width: 460px;
+  border-radius: 30px;
+  color: black;
+  border: 2px solid gray;
+  margin-bottom: 5px;
+  padding-left: 20px;
+
+}
+.MatInput{
+  font-size: 25px;
+  margin-bottom: 10px;
+ color: gray;
+ font-weight: 400;
+ font-family: "Lato", sans-serif;
+}
+.FgtPasswdrTxt{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Lato;
+  color: gray;
+}
+.password-toggle-icon{
+  position: absolute;
+  bottom:353px;
+  right: 300px;
+  z-index: 1000;
+  cursor: pointer;
+}
+.logINBtn{
+  width: 460px;
+  border-radius: 30px;
+  background-color: #09645B;
+  color: white;
+  border: none;
+  height: 50px;
+  font-family: "Lato";
+  font-weight: 800;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+} */
+
+
+@media screen and (max-width :1024px) {
+  .LoginPg{
+    display: flex;
+  }
+  .logInImgContainer{
+    background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0.73),rgba(29, 29, 29, 0.73), rgba(29, 29, 29, 0.73)),
+    url('../assets/img/loginIMG.png');
+    width: 534px;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    padding-top: 60px;
+    /* padding-left: 30px; */
+    
+  }
+ 
+  .logINImage{
+    width: 359px;
+    height: 300px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .WelcomeMsg{
+    font-size: 38px;
+    padding-left: 20px;
+    color: white;
+    
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+  }
+  .loginLogo{
+    width: 160px;
+    margin-bottom: 15px;
+  }
+  .LogInSpaceDetails{
+    padding-left: 30px;
+    padding-top: 150px;
+  }
+  .LogInText {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .MatNoInputHome{
+    height: 60px;
+    width: 400px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid gray;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 18px;
+  
+  }
+  .passInputHome{
+    height: 60px;
+    width: 400px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid gray;
+    margin-bottom: 5px;
+    padding-left: 20px;
+  
+  }
+  .MatInput{
+    font-size: 23px;
+    color: gray;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+  }
+  .password-toggle-icon{
+    position: absolute;
+    bottom:-9px;
+    right: 60px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  .logINBtn{
+    width: 400px;
+    border-radius: 30px;
+    background-color: #09645B;
+    color: white;
+    border: none;
+    height: 60px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .FgtPasswdrTxt{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Lato;
+    color: gray;
+  }
+} 
+
+
+@media screen and (max-width :834px) {
+  .LoginPg{
+    display: grid;
+  }
+  .logInImgContainer{
+    background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0.73),rgba(29, 29, 29, 0.73), rgba(29, 29, 29, 0.73)),
+    url('../assets/img/loginIMG.png');
+    width: 834px;
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    padding-top: 460px;
+    /* padding-left: 30px; */
+    
+  }
+ 
+  .logINImage{
+    width: 359px;
+    height: 300px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .WelcomeMsg{
+    font-size: 38px;
+    padding-left: 20px;
+    color: white;
+    
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+  }
+  .loginLogo{
+    width: 160px;
+    margin-bottom: 15px;
+  }
+  .LogInSpaceDetails{
+    padding-left: 50px;
+    padding-top: 0px;
+  }
+  .LogInText {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .MatNoInputHome{
+    height: 60px;
+    width: 650px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid gray;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 18px;
+  
+  }
+  .passInputHome{
+    height: 60px;
+    width: 650px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid gray;
+    margin-bottom: 5px;
+    padding-left: 20px;
+  
+  }
+  .MatInput{
+    font-size: 23px;
+    color: gray;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+  }
+  .password-toggle-icon{
+    position: absolute;
+    bottom:-9px;
+    right: 60px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  .logINBtn{
+    width: 650px;
+    border-radius: 30px;
+    background-color: #09645B;
+    color: white;
+    border: none;
+    height: 60px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .FgtPasswdrTxt{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Lato;
+    color: gray;
+  }
+} 
+
+@media screen and (max-width :800px) {
+  .LoginPg{
+    display: grid;
+  }
+  .logInImgContainer{
+    background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0.73),rgba(29, 29, 29, 0.73), rgba(29, 29, 29, 0.73)),
+    url('../assets/img/loginIMG.png');
+    width: 800px;
+    height: 630px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    padding-top: 460px;
+    /* padding-left: 30px; */
+    
+  }
+ 
+  .logINImage{
+    width: 359px;
+    height: 300px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .WelcomeMsg{
+    font-size: 38px;
+    padding-left: 20px;
+    color: white;
+    
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+  }
+  .loginLogo{
+    width: 190px;
+    margin-bottom: 15px;
+  }
+  .LogInSpaceDetails{
+    padding-left: 50px;
+    padding-top: 0px;
+  }
+  .LogInText {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .MatNoInputHome{
+    height: 60px;
+    width: 650px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid gray;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 18px;
+  
+  }
+  .passInputHome{
+    height: 60px;
+    width: 650px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid gray;
+    margin-bottom: 5px;
+    padding-left: 20px;
+  
+  }
+  .MatInput{
+    font-size: 23px;
+    color: gray;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+  }
+  .password-toggle-icon{
+    position: absolute;
+    bottom:-9px;
+    right: 60px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  .logINBtn{
+    width: 650px;
+    border-radius: 30px;
+    background-color: #09645B;
+    color: white;
+    border: none;
+    height: 60px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .FgtPasswdrTxt{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Lato;
+    color: gray;
+  }
+} 
+
+@media screen and (max-width :768px) {
+  .LoginPg{
+    display: grid;
+  }
+  .logInImgContainer{
+    background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0.73),rgba(29, 29, 29, 0.73), rgba(29, 29, 29, 0.73)),
+    url('../assets/img/loginIMG.png');
+    width: 768px;
+    height: 530px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    padding-top: 360px;
+    /* padding-left: 30px; */
+    
+  }
+ 
+  .logINImage{
+    width: 359px;
+    height: 300px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .WelcomeMsg{
+    font-size: 38px;
+    padding-left: 20px;
+    color: white;
+    
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+  }
+  .loginLogo{
+    width: 170px;
+    margin-bottom: 15px;
+  }
+  .LogInSpaceDetails{
+    padding-left: 50px;
+    padding-top: 0px;
+  }
+  .LogInText {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .MatNoInputHome{
+    height: 60px;
+    width: 620px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid gray;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 18px;
+  
+  }
+  .passInputHome{
+    height: 60px;
+    width: 620px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid gray;
+    margin-bottom: 5px;
+    padding-left: 20px;
+  
+  }
+  .MatInput{
+    font-size: 23px;
+    color: gray;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+  }
+  .password-toggle-icon{
+    position: absolute;
+    bottom:-9px;
+    right: 60px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  .logINBtn{
+    width: 620px;
+    border-radius: 30px;
+    background-color: #09645B;
+    color: white;
+    border: none;
+    height: 60px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .FgtPasswdrTxt{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Lato;
+    color: gray;
+  }
+} 
+
+@media screen and (max-width :688px) {
+  .LoginPg{
+    display: grid;
+  }
+  .logInImgContainer{
+    background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0.73),rgba(29, 29, 29, 0.73), rgba(29, 29, 29, 0.73)),
+    url('../assets/img/loginIMG.png');
+    width: 688px;
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    padding-top: 340px;
+    /* padding-left: 30px; */
+    
+  }
+ 
+  .logINImage{
+    width: 359px;
+    height: 300px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .WelcomeMsg{
+    font-size: 28px;
+    padding-left: 20px;
+    color: white;
+    
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+  }
+  .loginLogo{
+    width: 170px;
+    margin-bottom: 15px;
+  }
+  .LogInSpaceDetails{
+    padding-left: 50px;
+    padding-top: 0px;
+  }
+  .LogInText {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .MatNoInputHome{
+    height: 50px;
+    width: 550px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid gray;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 18px;
+  
+  }
+  .passInputHome{
+    height: 50px;
+    width: 550px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid gray;
+    margin-bottom: 5px;
+    padding-left: 20px;
+  
+  }
+  .MatInput{
+    font-size: 23px;
+    color: gray;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+  }
+  .password-toggle-icon{
+    position: absolute;
+    bottom:-9px;
+    right: 60px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  .logINBtn{
+    width: 550px;
+    border-radius: 30px;
+    background-color: #09645B;
+    color: white;
+    border: none;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .FgtPasswdrTxt{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Lato;
+    color: gray;
+  }
+} 
+
+@media screen and (max-width :600px) {
+  .LoginPg{
+    display: grid;
+  }
+  .logInImgContainer{
+    background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0.73),rgba(29, 29, 29, 0.73), rgba(29, 29, 29, 0.73)),
+    url('../assets/img/loginIMG.png');
+    width: 600px;
+    height: 430px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    padding-top: 290px;
+    /* padding-left: 30px; */
+    
+  }
+ 
+  .logINImage{
+    width: 359px;
+    height: 300px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .WelcomeMsg{
+    font-size: 28px;
+    padding-left: 20px;
+    color: white;
+    
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+  }
+  .loginLogo{
+    width: 170px;
+    margin-bottom: 15px;
+  }
+  .LogInSpaceDetails{
+    padding-left: 50px;
+    padding-top: 0px;
+  }
+  .LogInText {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .MatNoInputHome{
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid gray;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 18px;
+  
+  }
+  .passInputHome{
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid gray;
+    margin-bottom: 5px;
+    padding-left: 20px;
+  
+  }
+  .MatInput{
+    font-size: 21px;
+    color: gray;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+  }
+  .password-toggle-icon{
+    position: absolute;
+    bottom:-9px;
+    right: 60px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  .logINBtn{
+    width: 500px;
+    border-radius: 30px;
+    background-color: #09645B;
+    color: white;
+    border: none;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .FgtPasswdrTxt{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Lato;
+    color: gray;
+  }
+} 
+
+@media screen and (max-width :430px) {
+
+ 
+  .logInImgContainer{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)),
+    url('../assets/img/LandPageFoodImg.jpg');
+    width: 430px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 150px;
+    
+  }
+ 
+
+  .WelcomeMsg{
+    font-size: 29px;
+    text-align: left;
+    color: rgb(207, 206, 206);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    width: 300px;
+    margin-bottom: 70px;
+    
+  }
+ 
+
+
+  .logINBtn{
+    width: 300px;
+    border-radius: 30px;
+    background-color: #641709;
+    color: white;
+    border: none;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: calc(80%);
+    text-align: center;
+   
+  }
+  .brandName{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Lato;
+    font-style: italic;
+    background: linear-gradient(to right, #f54d8d, 
+          #ff6b08, #f555f5, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  }
+
+} 
+
+
+@media screen and (max-width :414px) {
+
+ 
+  .logInImgContainer{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)),
+    url('../assets/img/LandPageFoodImg.jpg');
+    width: 414px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 150px;
+    
+  }
+ 
+
+  .WelcomeMsg{
+    font-size: 29px;
+    text-align: left;
+    color: rgb(207, 206, 206);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    width: 300px;
+    margin-bottom: 70px;
+    
+  }
+ 
+
+
+  .logINBtn{
+    width: 300px;
+    border-radius: 30px;
+    background-color: #641709;
+    color: white;
+    border: none;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: calc(80%);
+    text-align: center;
+   
+  }
+  .brandName{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Lato;
+    font-style: italic;
+    background: linear-gradient(to right, #f54d8d, 
+          #ff6b08, #f555f5, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  }
+
+} 
+
+
+
+@media screen and (max-width :412px) {
+
+ 
+  .logInImgContainer{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)),
+    url('../assets/img/LandPageFoodImg.jpg');
+    width: 412px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 150px;
+    
+  }
+ 
+
+  .WelcomeMsg{
+    font-size: 29px;
+    text-align: left;
+    color: rgb(207, 206, 206);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    width: 300px;
+    margin-bottom: 70px;
+    
+  }
+ 
+
+
+  .logINBtn{
+    width: 300px;
+    border-radius: 30px;
+    background-color: #641709;
+    color: white;
+    border: none;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: calc(80%);
+    text-align: center;
+   
+  }
+  .brandName{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Lato;
+    font-style: italic;
+    background: linear-gradient(to right, #f54d8d, 
+          #ff6b08, #f555f5, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  }
+
+} 
+
+
+@media screen and (max-width :393px) {
+
+ 
+  .logInImgContainer{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)),
+    url('../assets/img/LandPageFoodImg.jpg');
+    width: 393px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 150px;
+    
+  }
+ 
+
+  .WelcomeMsg{
+    font-size: 28px;
+    text-align: left;
+    color: rgb(207, 206, 206);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    width: 300px;
+    margin-bottom: 70px;
+    
+  }
+ 
+
+
+  .logINBtn{
+    width: 300px;
+    border-radius: 30px;
+    background-color: #641709;
+    color: white;
+    border: none;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: calc(80%);
+    text-align: center;
+   
+  }
+  .brandName{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Lato;
+    font-style: italic;
+    background: linear-gradient(to right, #f54d8d, 
+          #ff6b08, #f555f5, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  }
+
+} 
+
+
+@media screen and (max-width :375px) {
+
+ 
+  .logInImgContainer{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)),
+    url('../assets/img/LandPageFoodImg.jpg');
+    width: 375px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 150px;
+    
+  }
+ 
+
+  .WelcomeMsg{
+    font-size: 28px;
+    text-align: left;
+    color: rgb(207, 206, 206);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    width: 300px;
+    margin-bottom: 70px;
+    
+  }
+ 
+
+
+  .logINBtn{
+    width: 300px;
+    border-radius: 30px;
+    background-color: #641709;
+    color: white;
+    border: none;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: calc(80%);
+    text-align: center;
+   
+  }
+  .brandName{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Lato;
+    font-style: italic;
+    background: linear-gradient(to right, #f54d8d, 
+          #ff6b08, #f555f5, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  }
+
+} 
+
+
+@media screen and (max-width :360px) {
+
+ 
+  .logInImgContainer{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)),
+    url('../assets/img/LandPageFoodImg.jpg');
+    width: 360px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 150px;
+    
+  }
+ 
+
+  .WelcomeMsg{
+    font-size: 28px;
+    text-align: left;
+    color: rgb(207, 206, 206);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    width: 300px;
+    margin-bottom: 70px;
+    
+  }
+ 
+
+
+  .logINBtn{
+    width: 300px;
+    border-radius: 30px;
+    background-color: #641709;
+    color: white;
+    border: none;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: calc(70%);
+    text-align: center;
+   
+  }
+  .brandName{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Lato;
+    font-style: italic;
+    background: linear-gradient(to right, #f54d8d, 
+          #ff6b08, #f555f5, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  }
+
+} 

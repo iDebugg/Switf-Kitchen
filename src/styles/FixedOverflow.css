@@ -1,0 +1,24 @@
+/* FixedOverflow.css */
+
+.fixed-overflow {
+    position: fixed;
+    border-radius: 60px;
+    top: 600px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    width: 150px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+   
+    color: white;
+    font: Lato;
+    text-align: center;
+    background-color: #25D366; /* Add background color */
+    padding: 10px; /* Add padding for content */
+  }
+  
+  .overflow-content {
+    /* Add styles for the content inside the overflow */
+  }
+  .whatsappIcon{
+    margin-right: 15px;
+  }
+  

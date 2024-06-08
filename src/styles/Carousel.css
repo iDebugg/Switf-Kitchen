@@ -1,0 +1,54 @@
+/* src/Carousel.css */
+
+.carousel-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  .slide {
+    position: relative; /* Ensure relative positioning for absolute positioning of the image */
+    display: flex;
+    height: 330px;
+    
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff94; /* Set background color to white */
+    border-radius: 20px; /* Optional: add border-radius for rounded corners */
+    overflow: hidden; /* Hide overflow from image */
+  }
+  
+  .slide img {
+    position: absolute; /* Position the image absolutely */
+    top: 10px; /* Position the image at the top center */
+    left: 50%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Adjust horizontal positioning */
+    width: 160px; /* Set width of circular image */
+    height: 160px; /* Set height of circular image */
+    object-fit: cover; /* Ensure the image covers the circular container */
+    border-radius: 50%; /* Make the image circular */
+    z-index: 1; /* Ensure image stays above text */
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.151);
+    border: 5px solid rgb(58, 2, 2);
+  }
+  
+  .text {
+    padding: 20px;
+    margin-top: 100px; /* Add margin-top to create space for the image */
+    z-index: 0; /* Ensure text stays behind image */
+  }
+  .fooddName{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .fooddNameSub{
+    font-style: italic;
+    font-family: Montserrat;
+    font-weight: 400;
+  }
+  

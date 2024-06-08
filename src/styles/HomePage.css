@@ -1,0 +1,2413 @@
+.flex{
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+
+.koll{
+    font-size: 50px;
+    color: rgb(173, 173, 173) !important;
+    font-weight: 500;
+    font-family: Lato;
+    margin-bottom: 10px;
+}
+
+.HomeDesign{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+    url(../assets/img/foodcookingBg.png);
+    height: 100vh;
+     padding-top: 270px; 
+    background-size: auto;
+     background-size: 1850px 960px;
+    background-repeat: no-repeat;
+
+  } 
+
+.MechatCrcleImg{
+    width: 420px;
+    margin-bottom: 20px;
+}
+.whatsMechatWRdDiv{
+    padding-top: 90px;
+}
+.MeetTheHODBigScreen{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(17, 17, 17, 0.73), rgba(102, 102, 102, 0.73)),
+    url('../assets/img/Wall-01\ 2.png');
+    text-align: center; 
+    padding-top: 350px;
+    padding-bottom: 230px;
+    padding-left: 400px;
+    padding-right: 20px;
+    background-size: 1850px 1200px;
+    display: flex;
+    gap: 100px;
+}
+.meetTheHOD1{
+    color: #F79531;
+    font-family: Lato;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.meetTheHODWord1{
+    color: white;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left; 
+    width: 550px;
+
+}
+.MeetTheHOD{
+    display: none;
+}
+.IntroductionWord{
+    font-size: 48px;
+    font-family: Lato;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    width: 680px;
+    padding-left: 20px;
+    margin-bottom: 120px;
+    font-style: oblique;
+}
+.FaqQuestions{
+    background: #F79531;
+    margin-bottom: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /* height: 70px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    color: white;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    width: 480px;
+}
+.FaqDiv{
+    /* height: 800px; */
+    padding-top: 50px;
+    
+}
+.qstnMark{
+    background: #908E96;
+    font-size: 25px;
+    border-radius: 40px;
+    width: 35px;
+    height: 35px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.FaqReplies{
+    background: #EFEFF0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+    color: #908E96;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    width: 480px;
+    margin-bottom: 20px;
+}
+.replyMark{
+    background: #908E96;
+    font-size: 25px;
+    border-radius: 40px;
+    width: 35px;
+    height: 35px;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.FaqQuestions2{
+    background: #F79531;
+    margin-bottom: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /* height: 70px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    color: white;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    width: 480px;
+}
+.FaqDivHeading{
+    color: #09645B;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 26px;
+}
+.FaqDivSubHeading{
+    color: #908E96;
+    font-family: Lato;
+    font-size: 19px;
+    font-weight: 400;
+}
+.faqQstnDiv1{
+    display: flex;
+    margin-left: 180px;
+}
+.faqQstnDiv2{
+    display: flex;
+    margin-left: 180px;
+}
+.faqAnswersReply{
+    margin-left: 60px;
+    display: flex;
+}
+.clclc{
+    display: none;
+  }
+  .koll{
+    font-size: 35px;
+   
+    font-weight: 500;
+    font-family: Lato;
+    color: rgb(218, 217, 217) !important;
+    margin-left: -40px;
+}
+.hjhjhj{
+    padding-left: 80px;
+    padding-top: 140px;
+}
+/* .FaqDiv{
+    
+    padding-left: 360px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+} */
+@media screen and (max-width :1024px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+        url(../assets/img/foodcookingBg.png);
+         padding-top: 30px; 
+        background-size: auto;
+         width: 1024px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 200px;
+    
+      } 
+      .IntroductionWord{
+        font-size: 28px;
+        font-family: Lato;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        width: 480px;
+        padding-left: 20px;
+        margin-bottom: 120px;
+        font-style: oblique;
+    }
+    
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+     .MechatCrcleImg{
+                width: 380px;
+                margin-bottom: 20px;
+                margin-left: 120px;
+     }
+        
+     .MeetTheHODBigScreen{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.73),rgba(17, 17, 17, 0.73), rgba(102, 102, 102, 0.73)),
+        url('../assets/img/Wall-01\ 2.png');
+        text-align: center; 
+        padding-top: 350px;
+        padding-bottom: 230px;
+        padding-left: 23px;
+        padding-right: 20px;
+        width: 1024px;
+        height: 1000px;
+        display: flex;
+        gap: 10px;
+     }
+     .meetTheHODWord1{
+        color: white;
+        font-family: Lato;
+        font-size: 25px;
+        font-weight: 300;
+        text-align: left; 
+        width: 450px;
+    
+    }
+        .MeetTheHOD{
+        display: none;
+            
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+            text-align: center; 
+        }
+
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 480px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 480px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 480px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 26px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 180px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 180px;
+        }
+        .faqAnswersReply{
+            margin-left: 60px;
+            display: flex;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 35px;
+           
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 140px;
+        }
+}
+@media screen and (max-width :834px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+        url(../assets/img/foodcookingBg.png);
+         padding-top: 30px; 
+        background-size: auto;
+         width: 834px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 200px;
+    
+      } 
+      .IntroductionWord{
+        font-size: 28px;
+        font-family: Lato;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        width: 480px;
+        padding-left: 20px;
+        margin-bottom: 120px;
+        font-style: oblique;
+    }
+    
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+     .MechatCrcleImg{
+                width: 390px;
+                margin-bottom: 20px;
+                margin-left: 120px;
+     }
+        
+    .MeetTheHODBigScreen{
+                display: none;
+            }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 2.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 834px;
+            height: 1000px;
+            
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+            text-align: center; 
+        }
+
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 480px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 480px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 480px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 26px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 180px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 180px;
+        }
+        .faqAnswersReply{
+            margin-left: 60px;
+            display: flex;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 35px;
+           
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 140px;
+        }
+}
+@media screen and (max-width :800px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+        url(../assets/img/foodcookingBg.png);
+         padding-top: 30px; 
+        background-size: auto;
+         width: 800px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 200px;
+    
+      } 
+      .IntroductionWord{
+        font-size: 28px;
+        font-family: Lato;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        width: 480px;
+        padding-left: 20px;
+        margin-bottom: 120px;
+        font-style: oblique;
+    }
+    
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+     .MechatCrcleImg{
+                width: 390px;
+                margin-bottom: 20px;
+                margin-left: 120px;
+     }
+        
+    .MeetTheHODBigScreen{
+                display: none;
+            }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 2.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 800px;
+            height: 1000px;
+            
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+            text-align: center; 
+        }
+
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 480px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 480px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 480px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 26px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 180px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 180px;
+        }
+        .faqAnswersReply{
+            margin-left: 60px;
+            display: flex;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 35px;
+           
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 140px;
+        }
+}
+@media screen and (max-width :768px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+        url(../assets/img/foodcookingBg.png);
+         padding-top: 30px; 
+        background-size: auto;
+         width: 768px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 200px;
+    
+      } 
+      .IntroductionWord{
+        font-size: 28px;
+        font-family: Lato;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        width: 480px;
+        padding-left: 20px;
+        margin-bottom: 120px;
+        font-style: oblique;
+    }
+    
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+     .MechatCrcleImg{
+                width: 390px;
+                margin-bottom: 20px;
+                margin-left: 120px;
+     }
+        
+    .MeetTheHODBigScreen{
+                display: none;
+            }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 2.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 768px;
+            height: 1000px;
+            
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+            text-align: center; 
+        }
+
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 390px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 480px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 390px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 26px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 180px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 180px;
+        }
+        .faqAnswersReply{
+            margin-left: 60px;
+            display: flex;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 35px;
+           
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 140px;
+        }
+}
+@media screen and (max-width :688px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+        url(../assets/img/foodcookingBg.png);
+         padding-top: 30px; 
+        background-size: auto;
+         width: 688px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 200px;
+    
+      } 
+      .IntroductionWord{
+        font-size: 27px;
+        font-family: Lato;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        width: 480px;
+        padding-left: 20px;
+        margin-bottom: 120px;
+        font-style: oblique;
+    }
+    
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+     .MechatCrcleImg{
+                width: 390px;
+                margin-bottom: 20px;
+                margin-left: 120px;
+     }
+        
+    .MeetTheHODBigScreen{
+                display: none;
+            }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 2.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 688px;
+            height: 1000px;
+            
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+            text-align: center; 
+        }
+
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 370px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 480px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 370px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 26px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 180px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 180px;
+        }
+        .faqAnswersReply{
+            margin-left: 60px;
+            display: flex;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 35px;
+           
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 140px;
+        }
+}
+@media screen and (max-width :600px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+            url(../assets/img/foodcookingBg.png); 
+         padding-top: 30px; 
+        background-size: auto;
+         width: 600px;
+         height: 100vh;
+        background-repeat: no-repeat;
+        padding-top: 190px;
+    
+      } 
+      .IntroductionWord{
+        font-size: 26px;
+        font-family: Lato;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        width: 480px;
+        padding-left: 20px;
+        margin-bottom: 120px;
+        font-style: oblique;
+    }
+    
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+        .MechatCrcleImg{
+            width: 290px;
+            margin-bottom: 20px;
+            margin-left: 120px;
+        }
+     
+        .MeetTheHODBigScreen{
+            display: none;
+        }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 2.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 600px;
+            height: 900px;
+            
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 19px;
+            font-weight: 400;
+            text-align: center; 
+        }
+       
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 350px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 450px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 350px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 150px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 150px;
+        }
+        .faqAnswersReply{
+            margin-left: 30px;
+            display: flex;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 30px;
+           
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 140px;
+        }
+}
+@media screen and (max-width :430px){
+        .HomeDesign{
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+            url(../assets/img/foodcookingBg.png); 
+             padding-top: 150px; 
+            background-size: auto;
+             width: 430px;
+             height: 100vh;
+            background-repeat: no-repeat;
+           
+        
+          } 
+        .IntroductionWord{
+            font-size: 22px;
+            font-family: Lato;
+            color: rgb(255, 255, 255);
+            font-weight: 900;
+            width: 350px;
+            padding-left: 20px;
+            margin-bottom: 120px;
+            font-style: oblique;
+        }
+        
+          .whatsMechatrBgBigScreen{
+            display: none;
+        }
+    
+            .MechatCrcleImg{
+                width: 290px;
+                margin-bottom: 20px;
+                margin-left: 48px;
+            }
+            .MeetTheHODBigScreen{
+                display: none;
+            }
+            .MeetTheHOD{
+                background-image: 
+                url(../src/assets/img/Wall-01\ 1.png);
+                text-align: center; 
+                padding-top: 190px;
+                padding-bottom: 150px;
+                padding-left: 20px;
+                padding-right: 20px;
+                display: block;
+                width: 430px;
+                height: 900px;
+            }
+            .meetTheHOD{
+                color: #F79531;
+                font-family: Lato;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .meetTheHODWord{
+                color: white;
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 400;
+                text-align: center; 
+            }
+            .FaqQuestions{
+                background: #F79531;
+                margin-bottom: 20px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-top-right-radius: 25px;
+                /* height: 70px; */
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 15px;
+                color: white;
+                font-family: Lato;
+                font-weight: 400;
+                font-size: 18px;
+                text-align: right;
+                width: 270px;
+            }
+            .FaqDiv{
+                /* height: 800px; */
+                padding-top: 50px;
+                /* padding-left: 20px; */
+            }
+            .qstnMark{
+                background: #908E96;
+                font-size: 25px;
+                border-radius: 40px;
+                width: 35px;
+                height: 35px;
+                color: white;
+                padding-left: 10px;
+                padding-top: 5px;
+                margin-left: 10px;
+                margin-top: 15px;
+            }
+            .FaqReplies{
+                background: #EFEFF0;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-top-right-radius: 25px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 15px;
+                color: #908E96;
+                font-family: Lato;
+                font-weight: 400;
+                font-size: 18px;
+                text-align: left;
+                width: 290px;
+                margin-bottom: 20px;
+            }
+            .replyMark{
+                background: #908E96;
+                font-size: 25px;
+                border-radius: 40px;
+                width: 35px;
+                height: 35px;
+                color: white;
+                padding-left: 5px;
+                padding-top: 5px;
+                margin-right: 10px;
+                margin-top: 15px;
+            }
+            .FaqQuestions2{
+                background: #F79531;
+                margin-bottom: 20px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-top-right-radius: 25px;
+                /* height: 70px; */
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 15px;
+                color: white;
+                font-family: Lato;
+                font-weight: 400;
+                font-size: 18px;
+                text-align: right;
+                width: 330px;
+            }
+            .FaqDivHeading{
+                color: #09645B;
+                font-family: Lato;
+                font-weight: 700;
+                font-size: 22px;
+            }
+            .FaqDivSubHeading{
+                color: #908E96;
+                font-family: Lato;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .faqAnswersReply{
+                margin-left: 10px;
+                display: flex;
+            }
+            .faqQstnDiv1{
+                display: flex;
+                margin-left: 80px;
+            }
+            .faqQstnDiv2{
+                display: flex;
+                margin-left: 15px;
+            }
+            .clclc{
+                display: none;
+              }
+              .koll{
+                font-size: 23px;
+                font-weight: 500;
+                font-family: Lato;
+                color: rgb(218, 217, 217) !important;
+                margin-left: -40px;
+            }
+            .hjhjhj{
+                padding-left: 80px;
+                padding-top: 120px;
+            }
+}
+@media screen and (max-width :414px){
+        .HomeDesign{
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+            url(../assets/img/foodcookingBg.png); 
+             padding-top: 150px; 
+            background-size: auto;
+             width: 414px;
+             height: 100vh;
+            background-repeat: no-repeat;
+           
+        
+          } 
+        .IntroductionWord{
+            font-size: 22px;
+            font-family: Lato;
+            color: rgb(255, 255, 255);
+            font-weight: 900;
+            width: 350px;
+            padding-left: 20px;
+            margin-bottom: 120px;
+            font-style: oblique;
+        }
+        
+          .whatsMechatrBgBigScreen{
+            display: none;
+        }
+    
+            .MechatCrcleImg{
+                width: 290px;
+                margin-bottom: 20px;
+                margin-left: 40px;
+            }
+            .MeetTheHODBigScreen{
+                display: none;
+            }
+            .MeetTheHOD{
+                background-image: 
+                url(../src/assets/img/Wall-01\ 1.png);
+                text-align: center; 
+                padding-top: 190px;
+                padding-bottom: 150px;
+                padding-left: 20px;
+                padding-right: 20px;
+                display: block;
+                width: 414px;
+                height: 900px;
+            }
+            .meetTheHOD{
+                color: #F79531;
+                font-family: Lato;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .meetTheHODWord{
+                color: white;
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 400;
+                text-align: center; 
+            }
+            .FaqQuestions{
+                background: #F79531;
+                margin-bottom: 20px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-top-right-radius: 25px;
+                /* height: 70px; */
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 15px;
+                color: white;
+                font-family: Lato;
+                font-weight: 400;
+                font-size: 18px;
+                text-align: right;
+                width: 210px;
+            }
+            .FaqDiv{
+                /* height: 800px; */
+                padding-top: 50px;
+                /* padding-left: 20px; */
+            }
+            .qstnMark{
+                background: #908E96;
+                font-size: 25px;
+                border-radius: 40px;
+                width: 35px;
+                height: 35px;
+                color: white;
+                padding-left: 10px;
+                padding-top: 5px;
+                margin-left: 10px;
+                margin-top: 15px;
+            }
+            .FaqReplies{
+                background: #EFEFF0;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-top-right-radius: 25px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 15px;
+                color: #908E96;
+                font-family: Lato;
+                font-weight: 400;
+                font-size: 18px;
+                text-align: left;
+                width: 290px;
+                margin-bottom: 20px;
+            }
+            .replyMark{
+                background: #908E96;
+                font-size: 25px;
+                border-radius: 40px;
+                width: 35px;
+                height: 35px;
+                color: white;
+                padding-left: 5px;
+                padding-top: 5px;
+                margin-right: 10px;
+                margin-top: 15px;
+            }
+            .FaqQuestions2{
+                background: #F79531;
+                margin-bottom: 20px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-top-right-radius: 25px;
+                /* height: 70px; */
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 15px;
+                color: white;
+                font-family: Lato;
+                font-weight: 400;
+                font-size: 18px;
+                text-align: right;
+                width: 280px;
+            }
+            .FaqDivHeading{
+                color: #09645B;
+                font-family: Lato;
+                font-weight: 700;
+                font-size: 22px;
+            }
+            .FaqDivSubHeading{
+                color: #908E96;
+                font-family: Lato;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .faqAnswersReply{
+                margin-left: 10px;
+                display: flex;
+            }
+            .faqQstnDiv1{
+                display: flex;
+                margin-left: 80px;
+            }
+            .faqQstnDiv2{
+                display: flex;
+                margin-left: 15px;
+            }
+            .clclc{
+                display: none;
+              }
+              .koll{
+                font-size: 23px;
+                font-weight: 500;
+                font-family: Lato;
+                color: rgb(218, 217, 217) !important;
+                margin-left: -40px;
+            }
+            .hjhjhj{
+                padding-left: 80px;
+                padding-top: 120px;
+            }
+}
+@media screen and (max-width :412px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+        url(../assets/img/foodcookingBg.png); 
+         padding-top: 150px; 
+        background-size: auto;
+         width: 412px;
+         height: 100vh;
+        background-repeat: no-repeat;
+       
+    
+      } 
+    .IntroductionWord{
+        font-size: 22px;
+        font-family: Lato;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        width: 350px;
+        padding-left: 20px;
+        margin-bottom: 110px;
+        font-style: oblique;
+    }
+    
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+        .MechatCrcleImg{
+            width: 290px;
+            margin-bottom: 20px;
+            margin-left: 35px;
+        }
+        .MeetTheHODBigScreen{
+            display: none;
+        }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 1.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 412px;
+            height: 900px;
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center; 
+        }
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 210px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 290px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 280px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .faqAnswersReply{
+            margin-left: 10px;
+            display: flex;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 80px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 15px;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 23px;
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 120px;
+        }
+ }
+@media screen and (max-width :393px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+        url(../assets/img/foodcookingBg.png); 
+         padding-top: 150px; 
+        background-size: auto;
+         width: 393px;
+         height: 100vh;
+        background-repeat: no-repeat;
+       
+    
+      } 
+    .IntroductionWord{
+        font-size: 22px;
+        font-family: Lato;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        width: 350px;
+        padding-left: 20px;
+        margin-bottom: 50px;
+        font-style: oblique;
+    }
+    
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+        .MechatCrcleImg{
+            width: 290px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+        }
+        .MeetTheHODBigScreen{
+            display: none;
+        }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 1.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 393px;
+            height: 900px;
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center; 
+        }
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 210px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 290px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 280px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .faqAnswersReply{
+            margin-left: 10px;
+            display: flex;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 80px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 15px;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 23px;
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 120px;
+        }
+}
+@media screen and (max-width :375px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+        url(../assets/img/foodcookingBg.png); 
+         padding-top: 150px; 
+        background-size: auto;
+         width: 375px;
+         height: 100vh;
+        background-repeat: no-repeat;
+       
+    
+      } 
+    .IntroductionWord{
+        font-size: 22px;
+        font-family: Lato;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        width: 350px;
+        padding-left: 20px;
+        margin-bottom: 50px;
+        font-style: oblique;
+    }
+    
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+        .MechatCrcleImg{
+            width: 290px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+        }
+        .MeetTheHODBigScreen{
+            display: none;
+        }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 1.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 375px;
+            height: 900px;
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center; 
+        }
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 210px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 290px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 280px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .faqAnswersReply{
+            margin-left: 10px;
+            display: flex;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 80px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 15px;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 23px;
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 120px;
+        }
+}
+@media screen and (max-width :360px){
+    .HomeDesign{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.73), rgb(0, 0, 0)),
+        url(../assets/img/foodcookingBg.png); 
+         padding-top: 150px; 
+        background-size: auto;
+         width: 360px;
+         height: 100vh;
+        background-repeat: no-repeat;
+       
+    
+      } 
+    .IntroductionWord{
+        font-size: 22px;
+        font-family: Lato;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        width: 350px;
+        padding-left: 20px;
+        margin-bottom: 50px;
+        font-style: oblique;
+    }
+    
+      .whatsMechatrBgBigScreen{
+        display: none;
+    }
+
+        .MechatCrcleImg{
+            width: 290px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+        }
+        .MeetTheHODBigScreen{
+            display: none;
+        }
+        .MeetTheHOD{
+            background-image: 
+            url(../src/assets/img/Wall-01\ 1.png);
+            text-align: center; 
+            padding-top: 190px;
+            padding-bottom: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+            width: 360px;
+            height: 900px;
+        }
+        .meetTheHOD{
+            color: #F79531;
+            font-family: Lato;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .meetTheHODWord{
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center; 
+        }
+        .FaqQuestions{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 210px;
+        }
+        .FaqDiv{
+            /* height: 800px; */
+            padding-top: 50px;
+            /* padding-left: 20px; */
+        }
+        .qstnMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .FaqReplies{
+            background: #EFEFF0;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 15px;
+            color: #908E96;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            width: 290px;
+            margin-bottom: 20px;
+        }
+        .replyMark{
+            background: #908E96;
+            font-size: 25px;
+            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .FaqQuestions2{
+            background: #F79531;
+            margin-bottom: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            /* height: 70px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            color: white;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: right;
+            width: 280px;
+        }
+        .FaqDivHeading{
+            color: #09645B;
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .FaqDivSubHeading{
+            color: #908E96;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .faqAnswersReply{
+            margin-left: 10px;
+            display: flex;
+        }
+        .faqQstnDiv1{
+            display: flex;
+            margin-left: 80px;
+        }
+        .faqQstnDiv2{
+            display: flex;
+            margin-left: 15px;
+        }
+        .clclc{
+            display: none;
+          }
+          .koll{
+            font-size: 23px;
+            font-weight: 500;
+            font-family: Lato;
+            color: rgb(218, 217, 217) !important;
+            margin-left: -40px;
+        }
+        .hjhjhj{
+            padding-left: 80px;
+            padding-top: 120px;
+        }
+}
+

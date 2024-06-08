@@ -1,0 +1,69 @@
+.calendar {
+    font-family: Arial, sans-serif;
+    width: 400px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); /* Add shadow here */
+    margin-bottom: 50px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    margin: 0;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .weekday {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .sunday {
+    font-weight: bold;
+  }
+
+.mnthName{
+    color: #F79531;
+    font-size: 28px;
+    font-family: Lato;
+    font-weight: 600;
+    
+}
+.today {
+    background-color: #969288;
+    color: #fff;
+}
+.mntIcon{
+    font-size: 30px;
+    color: darkgreen;
+}
