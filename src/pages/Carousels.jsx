@@ -6,6 +6,7 @@ import image1 from '../assets/img/Jollof-Rice-Final-Image-683x1024.jpg';
 import image2 from '../assets/img/Pounded-Yam-and-egusi-soup.jpg';
 import image3 from '../assets/img/eforiro-eko-1.jpeg';
 import image4 from '../assets/img/stirfrySpaghetti.jpg'
+import image5 from '../assets/img/plate-mashed-beans-diced-fried-600nw-578272357.webp'
 import '../styles/Carousel.css'
 
 const Carousel = () => {
@@ -58,6 +59,13 @@ const Carousel = () => {
             <div className="text">
               <h3 className='fooddName'>Stir Fry Spaghetti</h3>
               <p className='fooddNameSub'>Eforiro is a great dish to really spice up those greens and enjoy eating them with desirable fluffy swallow. </p>
+            </div>
+          </div>
+          <div className="slide">
+            <img src={image5} alt="Slide 3" />
+            <div className="text">
+              <h3 className='fooddName'>Ewa Agoyin & Bread</h3>
+              <p className='fooddNameSub'>Ewa Agoyin a high proteinous beans mashed with love to give the sweet taste and an after taste satisfaction </p>
             </div>
           </div>
         </Slider>

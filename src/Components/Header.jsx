@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import NAMTESLogo from '../assets/img/Logomark (1).png';
 import PropTypes from 'prop-types'
+import SwiftKitchenLogo from '../assets/img/SVG 1.svg'
 
 const MobileMenuIcon = ({ handleToggle, active }) => (
   <div
@@ -49,7 +49,7 @@ const Header = () => {
       <div className="relative">
         <nav className="fixed top-[2rem] z-50 left-[10%] flex justify-between  items-center py-[12px] px-[16px] w-[80%] rounded-[50px] mx-auto bg-gray-100">
           <NavLink to="/HomePage"> 
-            <img src={NAMTESLogo} alt="NAMTES LOGO" />  
+            <img src={SwiftKitchenLogo} alt="SWIFT LOGO" className='swiftKitchenLogo'/>  
             </NavLink>
 
           <div className="hidden md:flex gap-[20px] ">

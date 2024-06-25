@@ -1,5 +1,3 @@
-import MechatCrcle from '../assets/img/mems_deiagram 1.png';
-import HODframe from '../assets/img/frame-01 1.png';
 import Header from '../Components/Header.jsx';
 import AboutUs from '../pages/AboutUs.jsx';
 import Faq from '../pages/Faq.jsx'
